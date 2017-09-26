@@ -111,13 +111,16 @@ p {
         width: 100%;
     }
     header {
-        margin-top: 20px;
+        margin-top: 30px;
     }
     header p a {
         font-size: 1.2rem;
     }
     h1 {
         font-size: 2rem;
+    }
+    section {
+        margin-top: 40px;
     }
     #temperature,
     #location,
