@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+html,
+body,
+header,
+section {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Cutive Mono', monospace;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: auto;
+    text-align: center;
+    height: 100%;
+}
+
+span {
+    color: white;
+    background-color: black;
+    padding: 0px 10px;
+}
+
+section {
+    margin-top: 80px;
+}
+
+#weather {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#icon {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#location {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+#temperature {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+#description {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+#switcher {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+section p a {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+header p a {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+p {
+    display: inline;
+}
+
+.dgr {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width:860px) {
+    #weather,
+    #icon {
+        display: block;
+        width: 100%;
+    }
+}
+
+.icon {
+    height: 8em;
+    width: 10em;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 50%;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: black;
+    padding: 10px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
