@@ -110,6 +110,21 @@ p {
         display: block;
         width: 100%;
     }
+    header {
+        margin-top: 20px;
+    }
+    header p a {
+        font-size: 1.2rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #temperature,
+    #location,
+    #description {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
 }
 
 .icon {
